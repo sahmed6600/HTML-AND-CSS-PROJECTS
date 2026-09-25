@@ -1,0 +1,15 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+section {
+    scroll-margin-top: 70px;
+}
+
+.card {
+    height: 100%;
+}
+
+footer {
+    margin-top: 20px;
+}
