@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syed Thouseef's personal portfolio website showcasing HTML, CSS, database, and web projects.">
+    <title>Syed Thouseef | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+
+<nav class="navbar">
+    <a class="logo" href="#home">Syed<span>.</span></a>
+    <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#github">GitHub</a>
+        <a href="#contact">Contact</a>
+    </div>
+</nav>
+
+<header id="home" class="hero">
+    <div class="hero-content">
+        <p class="eyebrow">HTML &amp; CSS PORTFOLIO</p>
+        <h1>Hello, I'm <span>Syed Thouseef</span></h1>
+        <h2>Senior Database Engineer &amp; Web Development Learner</h2>
+        <p class="hero-text">
+            I enjoy building practical technology solutions and learning new
+            development skills. This portfolio shows some of the projects I
+            created while learning HTML and CSS.
+        </p>
+        <div class="hero-buttons">
+            <a class="button primary" href="#projects">View My Projects</a>
+            <a class="button secondary" href="#contact">Contact Me</a>
+        </div>
+    </div>
+    <div class="hero-card">
+        <img src="images/profile-placeholder.svg" alt="Portfolio profile illustration">
+        <p>Database • Technology • Web Development</p>
+    </div>
+</header>
+
+<section id="about" class="section about">
+    <div class="section-heading">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2>Technology and continuous learning</h2>
+    </div>
+    <div class="about-grid">
+        <div>
+            <p>
+                I am a technology professional with experience working with
+                databases and IT systems. I am also developing my web development
+                skills by learning HTML, CSS, Bootstrap, and other technologies.
+            </p>
+            <p>
+                This portfolio was created as part of my HTML and CSS course.
+                My goal is to continue improving my development skills and build
+                useful, professional websites.
+            </p>
+        </div>
+        <div class="skills-box">
+            <h3>Skills &amp; Interests</h3>
+            <ul>
+                <li>HTML &amp; CSS</li>
+                <li>Responsive Web Design</li>
+                <li>Bootstrap</li>
+                <li>MySQL &amp; Database Administration</li>
+                <li>Percona / PXC</li>
+                <li>GitHub &amp; Git</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section id="projects" class="section projects">
+    <div class="section-heading">
+        <p class="eyebrow">MY WORK</p>
+        <h2>Projects I created</h2>
+        <p>Some of the projects I completed while learning HTML and CSS.</p>
+    </div>
+    <div class="project-grid">
+        <article class="project-card">
+            <img src="images/css-effects.svg" alt="CSS effects project illustration">
+            <div class="project-content">
+                <h3>Creating CSS Effects</h3>
+                <p>A project demonstrating CSS transitions, transformations, and hover effects.</p>
+                <a href="https://github.com/sahmed6600/HTML-AND-CSS-PROJECTS" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+        </article>
+        <article class="project-card">
+            <img src="images/simple-recipes.svg" alt="Simple Recipes project illustration">
+            <div class="project-content">
+                <h3>Simple Recipes</h3>
+                <p>A simple recipe website created with HTML and CSS, including navigation, recipes, and an About section.</p>
+                <a href="https://github.com/sahmed6600/HTML-AND-CSS-PROJECTS" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+        </article>
+        <article class="project-card">
+            <img src="images/academy-cinemas.svg" alt="Academy Cinemas project illustration">
+            <div class="project-content">
+                <h3>Academy Cinemas</h3>
+                <p>A movie theater website created using HTML, CSS, and Bootstrap components.</p>
+                <a href="https://github.com/sahmed6600/HTML-AND-CSS-PROJECTS" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+        </article>
+    </div>
+</section>
+
+<section id="github" class="section github-section">
+    <div class="github-content">
+        <p class="eyebrow">GITHUB</p>
+        <h2>See my code and projects</h2>
+        <p>My GitHub repository contains the HTML and CSS projects I created during this course.</p>
+        <a class="button primary" href="https://github.com/sahmed6600/HTML-AND-CSS-PROJECTS" target="_blank" rel="noopener">Visit My GitHub</a>
+    </div>
+</section>
+
+<section id="contact" class="section contact">
+    <div class="section-heading">
+        <p class="eyebrow">CONTACT</p>
+        <h2>Let's connect</h2>
+        <p>Use the form below to send me a message.</p>
+    </div>
+
+    <!-- IMPORTANT: replace the action URL with your Formspree endpoint -->
+    <form class="contact-form" action="https://formspree.io/f/mkjojbln" method="POST">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Your message" required></textarea>
+
+        <button class="button primary" type="submit">Send Message</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2026 Syed Thouseef. All rights reserved.</p>
+    <a href="#home">Back to top</a>
+</footer>
+
+</body>
+</html>
